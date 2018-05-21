@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>XpChessDesktop - Adobe AIR Application Installer Page</title>
+<style type="text/css">
+	html, body { width: 100%; height: 100%; overflow: hidden; border: 0; }
+</style>
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+
+// version 9.0.115 or greater is required for launching AIR apps.
+var requiredMajorVersion = 9;
+var requiredMinorVersion = 0;
+var requiredRevision = 115;
+
+// these parameters are required for badge install:
+var airVersion = "1.1"; // version of AIR runtime required
+var airApplicationName = "XpChessDesktop"; // application name to display to the user
+var airApplicationURL = "http://xpchess.googlecode.com/svn/trunk/bin/desktop/XpChessDesktop.air"; // absolute URL (beginning with http or https) of the application ".air" file
+
+// these parameters are required to support launching apps from the badge (but optional for install):
+var airApplicationID = "XpChessDesktop"; // the qualified application ID (ex. com.gskinner.air.MyApplication)
+var airApplicationPublisherID = ""; // publisher id
+
+// this parameter is required in addition to the above to support upgrading from the badge:
+var airApplicationVersion = "2.5"; // AIR application version
+
+// these parameters are optional:
+var badgeImageURL = "xpchess.jpg"; // URL for an image (JPG, PNG, GIF) or SWF to display in the badge (205px wide, 170px high)
+var badgeApplicationInstallArg = "installed from web"; // passed to the application when it is installed from the badge
+var badgeApplicationLaunchArg = "launched from web"; // passed to the application when it is launched from the badge
+var badgeHelpURL = "help.html"; // optional url to a page containing additional help, displayed in the badge's help screen
+var badgeHideHelp = false; // hides the help icon if "true"
+var badgeSkipTransition = false; // skips the initial transition if "true"
+var badgeTitleColor = "#f17432"; // changes the color of titles
+var badgeButtonLabelColor = "#f17432"; // changes the color of the button label
+var badgeApplicationNameColor = "#f17432"; // changes the color of the application name if the image is not specified or loaded
+
+// these parameters allow you to override the default text in the badge:
+var badgeStringError = "";
+var badgeStringErrorParams = "";
+var badgeStringErrorAirUnavailable = "";
+var badgeStringErrorAirSWF = "<u>Running locally?</u><br/><br/>The AIR proxy swf won't load properly when this demo is run from the local file system.";
+var badgeStringLoading = "";
+var badgeStringInstall = "";
+var badgeStringLaunch = "";
+var badgeStringUpgrade = "";
+var badgeStringClose = "";
+var badgeStringLaunching = "";
+var badgeStringLaunchingText = "";
+var badgeStringInstalling = "";
+var badgeStringInstallingText = "";
+var badgeStringTryAgain = "";
+var badgeStringBeta3 = "";
+var badgeStringBeta3Text = "";
+var badgeStringHelp = "";
+var badgeStringHelpText = "";
+
+// AIR Install Badge Advanced Settings
+var flashBackgroundColor = undefined; // badge background color
+var flashContentWidth = undefined; // badge width, greater than 217
+var flashContentHeight = undefined // badge height, greater than 180
+var badgeDirectory = undefined; // Directory of badge.swf
+var expressInstallDirectory = undefined; // Directory of playerProductInstall.swf
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+<body>
+<div id="flashContent">
+
+	<!-- Insert the Installer JavaScript -->
+	<script src="AC_RunActiveContent.js" language="javascript"></script>
+	<script src="InstallBadge.js" language="javascript"></script>
+	
+	<!-- Noscript Block for users with JavaScript Disabled -->
+	<noscript>
+	<table id="AIRDownloadMessageTable">
+		<tr>
+			<td>
+			Download <a href="http://www.davidtucker.net/airtips/sampleApplication.air">Sample Application</a> now.<br /><br />
+			<span id="AIRDownloadMessageRuntime">
+			This application requires the Adobe&#174;&nbsp;AIR&#8482; runtime to be installed for 
+			<a href="http://airdownload.adobe.com/air/mac/download/1.0/AdobeAIR.dmg">Mac OS</a> or 
+			<a href="http://airdownload.adobe.com/air/win/download/1.0/AdobeAIRInstaller.exe">Windows</a>.</span>
+			</td>
+		</tr>
+	</table>
+	</noscript>
+	
+</div>
+</body>
+</html>

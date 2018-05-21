@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>XpChessDesktop - Adobe AIR Application Installer Page</title>
+<style type="text/css">
+	html, body { width: 100%; height: 100%; overflow: hidden; border: 0; }
+</style>
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 9;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 115;
+
+// AIR Version Required
+var airVersion = "2.5";
+// AIR Application Name
+var airApplicationName = "XpChessDesktop";
+// AIR Application URL
+var airApplicationURL = "http://xpchess.googlecode.com/svn/trunk/bin/desktop/XpChessDesktop.air";
+// AIR Application Image
+var airApplicationImage = "xpchess1.jpg";
+
+// AIR Install Badge Advanced Settings
+var flashBackgroundColor = undefined; // badge background color
+var flashContentWidth = undefined; // badge width, greater than 217
+var flashContentHeight = undefined // badge height, greater than 180
+var badgeDirectory = undefined; // Directory of badge.swf
+var expressInstallDirectory = undefined; // Directory of playerProductInstall.swf
+var buttonColor = "1e5d88"; // background color of badge install button
+var messageColor = "1e5d88"; // foreground color of badge message below the install button
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+<body>
+<div id="flashContent">
+
+	<!-- Insert the Installer JavaScript -->
+	<script src="AC_RunActiveContent.js" language="javascript"></script>
+	<script src="InstallBadge.js" language="javascript"></script>
+	
+	<!-- Noscript Block for users with JavaScript Disabled -->
+	<noscript>
+	<table id="AIRDownloadMessageTable">
+		<tr>
+			<td>
+			Download <a href="http://www.davidtucker.net/airtips/sampleApplication.air">Sample Application</a> now.<br /><br />
+			<span id="AIRDownloadMessageRuntime">
+			This application requires the Adobe&#174;&nbsp;AIR&#8482; runtime to be installed for 
+			<a href="http://airdownload.adobe.com/air/mac/download/1.0/AdobeAIR.dmg">Mac OS</a> or 
+			<a href="http://airdownload.adobe.com/air/win/download/1.0/AdobeAIRInstaller.exe">Windows</a>.</span>
+			</td>
+		</tr>
+	</table>
+	</noscript>
+	
+</div>
+</body>
+</html>
