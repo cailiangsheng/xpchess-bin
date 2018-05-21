@@ -15,6 +15,7 @@ Chinese Chess Game for X(2/3/4) Players 多人中国象棋
 
 有什么建议么？请发邮件告诉我：xpchess#sigma.name
 
+
 Chinese chess game is usually for 2 players.
 
 But if we change the 2-side chessboard into 3 or 4 sides, more persons can join the game.
