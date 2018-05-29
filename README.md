@@ -2,7 +2,7 @@
 
 | | SWF | Web |
 |---|---|---|
-| <img src='icon/xpchess.png' alt='XpChess' title='XpChess: 多人中国象棋' width='60px' height='60px' />  [2D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWeb.swf) <br/> [Flash3D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWeb3D.swf) <br/> [Stage3D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWebStage3D.swf) | [2D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWeb.swf) <br/> [Flash3D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWeb3D.swf) <br/> [Stage3D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWebStage3D.swf) | [2D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWeb.html) <br/> [Flash3D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWeb3D.html) <br/> [Stage3D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWebStage3D.html)  |
+| <img src='icon/xpchess.png' alt='XpChess' title='XpChess: 多人中国象棋' width='60px' height='60px' /> | [2D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWeb.swf) <br/> [Flash3D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWeb3D.swf) <br/> [Stage3D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWebStage3D.swf) | [2D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWeb.html) <br/> [Flash3D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWeb3D.html) <br/> [Stage3D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWebStage3D.html)  |
 
 Chinese Chess Game for X(2/3/4) Players 多人中国象棋
 
