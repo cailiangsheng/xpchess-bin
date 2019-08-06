@@ -1,6 +1,6 @@
 # xpchess
 
-| | SWF | Web |
+| Icon | SWF | Web |
 |---|---|---|
 | <img src='https://github.com/cailiangsheng/xpchess/blob/master/XpChessDesktop/icons/xpchess128.png' alt='XpChess' title='XpChess: 多人中国象棋' width='60px' height='60px' /> | [2D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWeb.swf) <br/> [Flash3D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWeb3D.swf) <br/> [Stage3D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWebStage3D.swf) | [2D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWeb.html) <br/> [Flash3D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWeb3D.html) <br/> [Stage3D](http://cailiangsheng.github.io/xpchess/bin/web/XpChessWebStage3D.html)  |
 
