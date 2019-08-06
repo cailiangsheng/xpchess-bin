@@ -1,4 +1,4 @@
-# xpchess
+# XpChess Binaries
 
 | Icon | SWF | Web |
 |---|---|---|
